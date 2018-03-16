@@ -100,6 +100,14 @@ textarea {
 /* ============
     navbar
     ============*/
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
 .nav-links {
     list-style: none;
 }
@@ -143,6 +151,21 @@ textarea {
     font-size: 38px;
     font-family: 'Condiment', cursive;
     color: gray;
+}
+
+/* ========================
+    Social CSS
+    ======================= */
+
+.social-logos {
+    position: absolute;
+    top: 100px;
+    right: 100px;
+}
+
+.facebook-logo img {
+    width: 100px;
+    height: 100px;
 }
 
 /* =========================
