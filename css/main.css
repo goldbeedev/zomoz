@@ -163,10 +163,50 @@ a:visited {
     right: 100px;
 }
 
-.facebook-logo img {
+.social-logo img {
     width: 100px;
     height: 100px;
 }
+
+/* =========================
+    About CSS 
+    ======================= */
+
+.about-text {
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    width: 300px;
+    font-family: 'Mate SC';
+    font-size: 16px;
+    color: white;
+}
+
+/* =========================
+    Contact CSS
+    ======================= */
+
+.contact-form {
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    width: 300px;
+    font-family: 'Mate SC';
+    font-size: 16px;
+    color: white;
+}
+
+input, select, textarea { 
+    font-family: 'Mate SC';
+}
+
+input[type=submit] {
+    cursor: pointer;
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+}
+
 
 /* =========================
     video background stuff
@@ -206,8 +246,53 @@ a:visited {
   .video-foreground { width: 300%; left: -100%; }
 }
 
+@media only screen
+and (min-width : 0px)
+and (max-width : 480px) {
+    .video-foreground { 
+        display: none; 
+}
+
+    .nav-link {
+        display: block;
+        width: 100%;
+    }
+
+    .company-name {
+        display: block;
+        width: 100%;
+        position: relative;
+        left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .nav-link-logo img {
+        max-width: 500px;
+        display: block;
+    }
+
+    .contact-form {
+        left: 20px;
+    }
+
+    .about-p {
+        display: block;
+        width: 100%;
+
+    }
+
+    .about-text {
+        position: absolute;
+        top: 100px;
+        width: 200px;
+    }
+
+    .social-logo {
+        box-shadow: 1px 1px 1px 1px rgba(255, 255, 255, 0.6);
+    }
 
 
+}
 
 
 
